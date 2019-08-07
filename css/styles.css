@@ -6,9 +6,10 @@ body, html {
 
 /* top navbar */
 
-#main-nav {
-    float: right;
-    margin: 30px 30px 0 0;
+nav a {
+    float: left;
+    display: flex;
+    justify-content: space-between;
 }
   
 nav a {
@@ -75,23 +76,56 @@ nav a {
     background: rgba(0, 0, 0, 0.7);
 }
 
+/* center overlays on parallax images */
+
+#logo {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    padding-bottom: 1em;
+}
+
+.center-block {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+.center-block .bordered {
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+    display: inline-block;
+}
+
+.center-block .bordered.transparent {
+    background-color: transparent;
+    text-shadow: 0 0 10px #000;
+}
+
+/* font-awesome icons */
+
+#social .fa {
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.2em 0.1em;
+    color: #fff;
+}
+  
+#social .fa:hover {
+    opacity: 0.7;
+}
+
 /* responsive image positioning */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .carousel-item img {
         object-position: 50% 30%;
     }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 }
