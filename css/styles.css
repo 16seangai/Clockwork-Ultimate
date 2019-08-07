@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+/* top navbar */
+
+#main-nav {
+    float: right;
+    margin: 30px 30px 0 0;
+}
+  
+nav a {
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+/* background images */
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    z-index: -2;
+    background-position: center;
+}
+
+.bgimg-1 {
+    background-image: url("../img/zweeds_sideline.jpg");
+    opacity: 1;
+}
+
+.bgimg-2 {
+    background-image: url("../img/team_photo.jpg");
+}
+
+.bgimg-3 {
+    background-image: url("../img/row_cheer.jpg");
+}
+
+.bgimg-4 {
+    background-image: url("../img/zane_break.jpg");
+}
+
+/* gallery carousel */
+
+.carousel,.item,.active {
+    height:100%;
+}
+
+.carousel-inner {
+    height:100%;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#high-tide {
+    transform: rotate(90deg);
+}
