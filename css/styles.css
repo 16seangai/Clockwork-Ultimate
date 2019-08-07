@@ -66,5 +66,35 @@ nav a {
 .carousel-item img {
     height: 100%;
     object-fit: cover;
-    object-position: center top;
+}
+
+#gallery .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* responsive image positioning */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .carousel-item img {
+        object-position: 50% 5%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .carousel-item img {
+        object-position: 50% 25%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
