@@ -79,9 +79,6 @@ nav a {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .carousel-item img {
-        object-position: 50% 5%;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -91,7 +88,7 @@ nav a {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .carousel-item img {
-        object-position: 50% 25%;
+        object-position: 50% 30%;
     }
 }
 
