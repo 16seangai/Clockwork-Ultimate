@@ -5,12 +5,10 @@ Team website for Clockwork, the club ultimate team for Princeton University
 
 Update the roster by editing the roster.js file in the js directory.
 
-### And coding style tests
-
-Explain what these tests test and why
+The naming conventions for the rosters are given below:
 
 ```
-Give an example
+const a_roster a-team roster
 ```
 
 ## Deployment
