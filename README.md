@@ -1,5 +1,5 @@
 # Clockwork-Ultimate
-Team website for Clockwork, the club ultimate team for Princeton University
+Team website for Clockwork, the club ultimate team for Princeton University. Currently deployed at https://zen-jackson-f44584.netlify.com/
 
 ## Updating the Roster
 
