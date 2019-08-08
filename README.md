@@ -18,8 +18,8 @@ const social_chairs | social chairs
 
 The format for adding players to ```a_roster``` and ```b_roster``` is to add an object with ```name```, ```number```, and ```class_year``` properties to the corresponding roster.
 
-```name```: a string usually formatted as ```"First Last"```
-```number```: player's number
+```name```: a string usually formatted as ```"First Last"```\
+```number```: player's number\
 ```class_year```: a string for the player's class year specified by ```"fr", "so", "jr", "sr", "gr"```
 
 ```
