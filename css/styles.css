@@ -20,6 +20,10 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    color: white;
+}
+
 .selected {
     border-bottom: 0.15rem solid #e77500;
 }
@@ -31,7 +35,6 @@ nav a {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ddd;
 }
   
 #roster-nav {
@@ -46,9 +49,10 @@ nav a {
 }
 
 #roster-tables caption {
-    color: #ddd;
     text-align: center;
     caption-side: top;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 #roster-tables table {
@@ -57,21 +61,18 @@ nav a {
     width: 100%;
 }
 
-#roster-tables td {
-    color: #ddd;
-}
-
 #roster .captain {
     font-weight: bold;
     color: #e77500;
 }
 
 #roster .president {
-    font-style: italic;
+    font-weight: bold;
 }
 
 #roster .social-chair {
-    font-weight: bold;
+    font-weight: 600;
+    font-style: italic;
 }
 
 #roster .member {
@@ -79,7 +80,7 @@ nav a {
 }
 
 .table-labels .label{
-    color: #ddd;
+    color: white;
     display: block;
     text-align: center;
 }
@@ -145,7 +146,7 @@ nav a {
   
 .section-black {
     background-color: #333;
-    color: #666;
+    color: white;
 }
 
 #about .list-group {
