@@ -8,7 +8,12 @@ Update the roster by editing the roster.js file in the js directory.
 The naming conventions for the rosters are given below:
 
 ```
-const a_roster a-team roster
+const a_roster      | a-team roster
+const b_roster      | b-team roster
+const a_captains    | a-team captains
+const b_captains    | b-team captains
+const presidents    | presidents
+const social_chairs | social chairs
 ```
 
 ## Deployment
