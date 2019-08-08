@@ -53,6 +53,39 @@ nav a {
     background-image: url("../img/zane_break.jpg");
 }
 
+/* text sections */
+
+.section {
+    padding: 3rem;
+}
+  
+.section h1 {
+    text-align: center;
+}
+
+.section-text {
+    text-align: left;
+    max-width: 56.25rem;
+    margin: auto;
+}
+
+.section-orange {
+    background-color: #e77500;
+    color: #ddd;
+}
+  
+.section-black {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+#about .list-group {
+    margin: 1.5rem auto;
+    text-align: center;
+    width: 50%;
+    color: #777;
+}
+
 /* gallery carousel */
 
 .carousel,.item,.active {
@@ -80,7 +113,7 @@ nav a {
 #logo {
     text-decoration: underline;
     text-decoration-color: orange;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 
 .center-block {
@@ -88,15 +121,15 @@ nav a {
     top: 40%;
     width: 100%;
     text-align: center;
-    font-size: 2em;
-    letter-spacing: 0.5em;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
 
 .center-block .bordered {
     background-color: #111;
     color: #fff;
-    padding: 1em;
+    padding: 1rem;
     display: inline-block;
 }
 
@@ -108,11 +141,11 @@ nav a {
 /* font-awesome icons */
 
 #social .fa {
-    padding: 1em;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    margin: 0.2em 0.1em;
+    margin: 0.2rem 0.1rem;
     color: #fff;
 }
   
