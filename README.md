@@ -35,24 +35,11 @@ Updating ```presidents``` and ```social_chairs``` follows the same process (add 
 * [Bootstrap](http://getbootstrap.com/) - Used for the image gallery and sizing/styling
 * [jQuery](http://jquery.com/) - Used for scrolling animations and roster transitions
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* -
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Sean Gai**
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* W3Schools - Parallax demo
+* @TuOfTimes - [McGill Ultimate Site](http://mcgillultimate.ca/)
