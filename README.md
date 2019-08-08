@@ -5,7 +5,7 @@ Team website for Clockwork, the club ultimate team for Princeton University
 
 Update the roster by editing the roster.js file in the js directory.
 
-The naming conventions for the rosters are given below:
+The naming conventions for the rosters and leadership positions are given below:
 
 ```
 const a_roster      | a-team roster
@@ -15,6 +15,8 @@ const b_captains    | b-team captains
 const presidents    | presidents
 const social_chairs | social chairs
 ```
+
+The format for updating ```a_roster``` and ```b_roster```
 
 ## Deployment
 
