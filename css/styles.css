@@ -39,17 +39,30 @@ nav a {
     justify-content: space-between;
 }
 
-#roster-table {
-    margin: 0 auto;
+.rosters caption {
+    text-align: center;
+    caption-side: top;
+}
+
+.rosters td {
     color: #ddd;
 }
 
-#roster-table .table-left-heading {
-    padding-right: 8rem;
+.rosters .captain {
+    font-weight: bold;
+    color: #e77500;
 }
 
-.table-labels {
-    color: #ddd;
+.rosters .president {
+    font-style: italic;
+}
+
+.rosters .social-chair {
+    font-weight: bold;
+}
+
+#captain-label {
+    color: #e77500;
 }
 
 /* background images */

@@ -9,39 +9,61 @@ $("#roster-nav a").click(function() {
 
 
 // Load appropriate roster
-function loadRoster(roster, captains, rookies, years) {
-    var table = document.getElementById("roster-table").getElementsByTagName("tbody")[0];
-    table.innerHTML = "";
+function loadRoster(roster, captains, presidents, social_chairs) {
+    var table_fr = document.getElementById("roster-fr").getElementsByTagName("tbody")[0];
+    var table_so = document.getElementById("roster-so").getElementsByTagName("tbody")[0];
+    var table_jr = document.getElementById("roster-jr").getElementsByTagName("tbody")[0];
+    var table_srgr = document.getElementById("roster-srgr").getElementsByTagName("tbody")[0];
+    // clear tables
+    table_fr.innerHTML = "";
+    table_so.innerHTML = "";
+    table_jr.innerHTML = "";
+    table_srgr.innerHTML = "";
     // populate roster and years
     for (var i = 0; i < roster.length; i++) {
-        var row = table.insertRow();
+        if (roster[i].year === "fr") {
+            var row = table_fr.insertRow();
+        }
+        else if (roster[i].year === "so") {
+            var row = table_so.insertRow();
+        }
+        else if (roster[i].year === "jr") {
+            var row = table_jr.insertRow();
+        }
+        else {
+            var row = table_srgr.insertRow();
+        }
+
         var row_number = row.insertCell();
         var row_name = row.insertCell();
 
-        row_number.innerHTML = years[i];
+        row_number.innerHTML = roster[i].number;
+        row_name.innerHTML = roster[i].name;
 
         // indicate rookies and captains
-        if (rookies.indexOf(roster[i]) != -1) {
-            row_name.innerHTML = "<i>" + roster[i] + "</i>";
-        } else if (captains.indexOf(roster[i]) != -1) {
-            row_name.innerHTML = "<strong>" + roster[i] + "</strong>";
+        if (captains.indexOf(roster[i].name) != -1) {
+            row_name.className = "captain";
+        } else if (presidents.indexOf(roster[i].name) != -1) {
+            row_name.className = "president";
+        } else if (social_chairs.indexOf(roster[i].name) != -1) {
+            row_name.className = "social-chair";
         } else {
-            row_name.innerHTML = roster[i];
+            row_name.className = "member";
         }
     }
 }
 
 // Load Men's A roster by default
 $( document ).ready(function() {
-    loadRoster(a_roster, a_captains, a_rookies, a_years);
+    loadRoster(a_roster, a_captains, presidents, social_chairs);
 });
 
 // Load Men's A roster
 $("#view-a").on("click", () =>
-    loadRoster(a_roster, a_captains, a_rookies, a_years)
+    loadRoster(a_roster, a_captains, presidents, social_chairs)
 );
 
 // Load Men's B roster
 $("#view-b").on("click", () =>
-    loadRoster(b_roster, b_captains, b_rookies, b_years)
+    loadRoster(b_roster, b_captains, presidents, social_chairs)
 );
