@@ -4,7 +4,7 @@ body, html {
     font: 400 15px/1.8 "Lato", sans-serif;
 }
 
-/* top navbar */
+/* navbars */
 
 #main-nav {
     display: flex;
@@ -16,8 +16,40 @@ nav a {
     font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase;
-    color: white;
     text-decoration: none;
+    color: white;
+}
+
+.highlight {
+    border-bottom: 0.15rem solid #e77500;
+}
+
+/* roster section */
+
+#roster-nav a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ddd;
+}
+  
+#roster-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#roster-table {
+    margin: 0 auto;
+    color: #ddd;
+}
+
+#roster-table .table-left-heading {
+    padding-right: 8rem;
+}
+
+.table-labels {
+    color: #ddd;
 }
 
 /* background images */
@@ -69,13 +101,18 @@ nav a {
     margin: auto;
 }
 
+.section .section-text p a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
 .section-orange {
     background-color: #e77500;
     color: #ddd;
 }
   
 .section-black {
-    background-color: #f4f4f4;
+    background-color: #333;
     color: #666;
 }
 
