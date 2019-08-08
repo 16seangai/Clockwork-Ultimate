@@ -18,11 +18,11 @@ nav a {
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #ddd;
 }
 
 nav a:hover {
-    color: white;
+    color: #ddd;
     text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .table-labels .label{
-    color: white;
+    color: #ddd;
     display: block;
     text-align: center;
 }
@@ -91,7 +91,8 @@ nav a:hover {
 
 .bgimg-1,
 .bgimg-2,
-.bgimg-3 {
+.bgimg-3,
+.bgimg-4 {
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
@@ -111,6 +112,10 @@ nav a:hover {
 }
 
 .bgimg-3 {
+    background-image: url("../img/row_cheer.jpg");
+}
+
+.bgimg-4 {
     background-image: url("../img/zane_break.jpg");
 }
 
@@ -118,6 +123,7 @@ nav a:hover {
 
 .section {
     padding: 3rem;
+    color: #ddd;
 }
   
 .section h1 {
@@ -137,12 +143,10 @@ nav a:hover {
 
 .section-orange {
     background-color: #e77500;
-    color: #ddd;
 }
   
 .section-black {
     background-color: #333;
-    color: white;
 }
 
 #about .list-group {
@@ -236,6 +240,11 @@ nav a:hover {
 @media (min-width: 768px) {
     #roster-tables table {
         width: 25%;
+    }
+
+    #gallery .carousel-item {
+        height: 100vh;
+        min-height: 350px;
     }
 }
 
