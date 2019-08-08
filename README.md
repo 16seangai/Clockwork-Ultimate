@@ -16,7 +16,15 @@ const presidents    | presidents
 const social_chairs | social chairs
 ```
 
-The format for updating ```a_roster``` and ```b_roster```
+The format for adding players to ```a_roster``` and ```b_roster``` is to add an object with ```name```, ```number```, and ```class_year``` properties.
+
+```name```: a string usually formatted as ```"First Last"```
+```number```: player's corresponding number
+```class_year```: a string for the player's class year specified by ```"fr", "so", "jr", "sr", "gr"```
+
+```
+{ name: "Ashlin Joye", number: 27, year: "gr" }
+```
 
 ## Deployment
 
