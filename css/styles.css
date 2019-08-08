@@ -39,35 +39,35 @@ nav a {
     justify-content: space-between;
 }
 
-.rosters caption {
+#roster-tables caption {
     text-align: center;
     caption-side: top;
 }
 
-.rosters td {
+#roster-tables td {
     color: #ddd;
 }
 
-.rosters .captain {
+#roster-tables .captain {
     font-weight: bold;
     color: #e77500;
 }
 
-.rosters .president {
+#roster-tables .president {
     font-style: italic;
 }
 
-.rosters .social-chair {
+#roster-tables .social-chair {
     font-weight: bold;
 }
 
-#captain-label {
-    color: #e77500;
+.table-labels {
+    display: block;
+    text-align: center;
 }
 
-.table-labels {
-    display: flex;
-    justify-content: center;
+.table-labels #captain-label {
+    color: #e77500;
 }
 
 /* background images */

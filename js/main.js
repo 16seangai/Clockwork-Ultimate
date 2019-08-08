@@ -1,3 +1,4 @@
+// Indicate active roster being displayed in roster-nav
 $("#roster-nav a").click(function() {
     $(this)
       .closest("a")
@@ -5,8 +6,27 @@ $("#roster-nav a").click(function() {
       .siblings()
       .removeClass("highlight");
     return false; // no default behavior from clicking on the link
-  });
+});
 
+// Generate tables in the roster div
+function createTables() {
+    var table_ids = ["roster-fr", "roster-so", "roster-jr", "roster-srgr"];
+    var table_names = ["Freshmen", "Sophomores", "Juniors", "Seniors and Grads"];
+    for (var i = 0; i < 4; i++) {
+        var table = `<table id=${table_ids[i]}>
+                        <caption>${table_names[i]}</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="table-left-heading">No.</th>
+                                <th scope="col">Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>`
+        $("#roster-tables").append(table);
+    }
+}
 
 // Load appropriate roster
 function loadRoster(roster, captains, presidents, social_chairs) {
@@ -40,7 +60,7 @@ function loadRoster(roster, captains, presidents, social_chairs) {
         row_number.innerHTML = roster[i].number;
         row_name.innerHTML = roster[i].name;
 
-        // indicate rookies and captains
+        // highlight captains, presidents, and social chairs
         if (captains.indexOf(roster[i].name) != -1) {
             row_name.className = "captain";
         } else if (presidents.indexOf(roster[i].name) != -1) {
@@ -53,8 +73,9 @@ function loadRoster(roster, captains, presidents, social_chairs) {
     }
 }
 
-// Load Men's A roster by default
+// Load Men's A roster and create roster tables in HTML by default
 $( document ).ready(function() {
+    createTables();
     loadRoster(a_roster, a_captains, presidents, social_chairs);
 });
 
