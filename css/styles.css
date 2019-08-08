@@ -48,26 +48,22 @@ nav a {
     color: #ddd;
 }
 
-#roster-tables .captain {
+#roster .captain {
     font-weight: bold;
     color: #e77500;
 }
 
-#roster-tables .president {
+#roster .president {
     font-style: italic;
 }
 
-#roster-tables .social-chair {
+#roster .social-chair {
     font-weight: bold;
 }
 
-.table-labels {
+.table-labels .label{
     display: block;
     text-align: center;
-}
-
-.table-labels #captain-label {
-    color: #e77500;
 }
 
 /* background images */
