@@ -28,6 +28,8 @@ The format for adding players to ```a_roster``` and ```b_roster``` is to add an 
 
 To add captains to ```a_captains``` and ```b_captains```, simply add their names to the desired list formatted as ```"First Last"```.
 
+Updating ```presidents``` and ```social_chairs``` follows the same process (add ```"First Last"``` to corresponding list).
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
