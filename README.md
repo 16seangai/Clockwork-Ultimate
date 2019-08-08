@@ -32,9 +32,8 @@ Updating ```presidents``` and ```social_chairs``` follows the same process (add 
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Bootstrap](http://getbootstrap.com/) - Used for the image gallery and sizing/styling
+* [jQuery](http://jquery.com/) - Used for scrolling animations and roster transitions
 
 ## Contributing
 
