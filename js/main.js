@@ -19,15 +19,15 @@ function loadRoster(roster, captains, presidents, social_chairs) {
     table_so.innerHTML = "";
     table_jr.innerHTML = "";
     table_srgr.innerHTML = "";
-    // populate roster and years
+    // populate roster and class years
     for (var i = 0; i < roster.length; i++) {
-        if (roster[i].year === "fr") {
+        if (roster[i].class_year === "fr") {
             var row = table_fr.insertRow();
         }
-        else if (roster[i].year === "so") {
+        else if (roster[i].class_year === "so") {
             var row = table_so.insertRow();
         }
-        else if (roster[i].year === "jr") {
+        else if (roster[i].class_year === "jr") {
             var row = table_jr.insertRow();
         }
         else {

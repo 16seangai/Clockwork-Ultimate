@@ -65,6 +65,11 @@ nav a {
     color: #e77500;
 }
 
+.table-labels {
+    display: flex;
+    justify-content: center;
+}
+
 /* background images */
 
 .bgimg-1,
