@@ -41,5 +41,5 @@ Updating ```presidents``` and ```social_chairs``` follows the same process (add 
 
 ## Acknowledgments
 
-* W3Schools - Parallax demo
+* W3Schools - [Parallax demo](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
 * @TuOfTimes - [McGill Ultimate Site](http://mcgillultimate.ca/)
