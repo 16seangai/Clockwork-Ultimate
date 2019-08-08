@@ -1,3 +1,48 @@
+// Animate main nav scroll
+$("#view-about").on("click", function() {
+    const about = $("#about").position().top;
+
+    $("html, body").animate(
+        {
+        scrollTop: about
+        },
+        900
+    );
+});
+  
+$("#view-roster").on("click", function() {
+    const roster = $("#roster").position().top;
+
+    $("html, body").animate(
+        {
+        scrollTop: roster
+        },
+        900
+    );
+});
+  
+$("#view-gallery").on("click", function() {
+    const uandu = $("#gallery").position().top;
+
+    $("html, body").animate(
+        {
+        scrollTop: uandu
+        },
+        900
+    );
+});
+  
+$("#view-contact").on("click", function() {
+    const sponsors = $("#contact").position().top;
+
+    $("html, body").animate(
+        {
+        scrollTop: sponsors
+        },
+        900
+    );
+});
+  
 // Indicate active roster being displayed in roster-nav
 $("#roster-nav a").click(function() {
     $(this)

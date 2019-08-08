@@ -89,8 +89,7 @@ nav a:hover {
 
 .bgimg-1,
 .bgimg-2,
-.bgimg-3,
-.bgimg-4 {
+.bgimg-3 {
     position: relative;
     opacity: 0.85;
     background-attachment: fixed;
@@ -111,10 +110,6 @@ nav a:hover {
 }
 
 .bgimg-3 {
-    background-image: url("../img/row_cheer.jpg");
-}
-
-.bgimg-4 {
     background-image: url("../img/zane_break.jpg");
 }
 
