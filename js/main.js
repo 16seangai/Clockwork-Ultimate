@@ -2,9 +2,9 @@
 $("#roster-nav a").click(function() {
     $(this)
       .closest("a")
-      .addClass("highlight")
+      .addClass("selected")
       .siblings()
-      .removeClass("highlight");
+      .removeClass("selected");
     return false; // no default behavior from clicking on the link
 });
 
