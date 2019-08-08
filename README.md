@@ -26,6 +26,8 @@ The format for adding players to ```a_roster``` and ```b_roster``` is to add an 
 { name: "Ashlin Joye", number: 27, year: "gr" }
 ```
 
+To add captains to ```a_captains``` and ```b_captains```, simply add their names to the desired list formatted as ```"First Last"```.
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
