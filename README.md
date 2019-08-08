@@ -37,7 +37,8 @@ Updating ```presidents``` and ```social_chairs``` follows the same process (add 
 
 ## Authors
 
-* **Sean Gai**
+* **Sean Gai** [@16seangai](https://github.com/16seangai)
+* **Steven Chien** [@stevenwchien](https://github.com/stevenwchien)
 
 ## Acknowledgments
 
