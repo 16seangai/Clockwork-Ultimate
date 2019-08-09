@@ -11,7 +11,7 @@ body, html {
     display: flex;
     justify-content: space-around;
 }
-  
+
 nav a {
     margin-top: 1.5rem;
     font-size: 1rem;
@@ -38,7 +38,7 @@ nav a:hover {
     text-transform: uppercase;
     text-decoration: none;
 }
-  
+
 #roster-nav {
     display: flex;
     justify-content: space-between;
@@ -125,7 +125,7 @@ nav a:hover {
     padding: 3rem;
     color: #ddd;
 }
-  
+
 .section h1 {
     text-align: center;
 }
@@ -144,16 +144,28 @@ nav a:hover {
 .section-orange {
     background-color: #e77500;
 }
-  
+
 .section-black {
     background-color: #333;
 }
 
 #about .list-group {
-    margin: 1.5rem auto;
+    margin: auto;
     text-align: center;
-    width: 50%;
+    width: 100%;
     color: #777;
+}
+
+#about .list-group-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#about .list-groups {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* gallery carousel */
@@ -218,7 +230,7 @@ nav a:hover {
     margin: 0.2rem 0.1rem;
     color: #fff;
 }
-  
+
 #social .fa:hover {
     opacity: 0.7;
 }
