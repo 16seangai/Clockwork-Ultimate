@@ -258,6 +258,13 @@ nav a:hover {
         height: 100vh;
         min-height: 350px;
     }
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: fixed;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
