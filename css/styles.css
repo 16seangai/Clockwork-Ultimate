@@ -153,23 +153,9 @@ nav a:hover {
     background-color: #333;
 }
 
-#about .list-group {
-    margin: auto;
-    text-align: center;
-    width: 100%;
+.section-orange .table {
+    background: #fff;
     color: #777;
-}
-
-#about .list-group-container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#about .list-groups {
-    width: 90%;
-    margin: auto;
-    margin-top: 1.25rem;
-    margin-bottom: 0.625rem;
 }
 
 /* gallery carousel */
