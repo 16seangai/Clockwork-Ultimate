@@ -174,14 +174,6 @@ nav a:hover {
 
 /* gallery carousel */
 
-.carousel,.item,.active {
-    height:100%;
-}
-
-.carousel-inner {
-    height:100%;
-}
-
 .carousel-item img {
     height: 100%;
     object-fit: cover;
@@ -195,7 +187,11 @@ nav a:hover {
 }
 
 #gallery .carousel-item {
-    height: 75vh;
+    height: 45vh;
+}
+
+#gallery {
+    padding-bottom: 7.5rem;
 }
 
 /* center overlays on parallax images */
