@@ -103,6 +103,10 @@ nav a:hover {
 }
 
 .bgimg-1 {
+    background-position: 85%;
+}
+
+.bgimg-1 {
     background-image: url("../img/zweeds_sideline.jpg");
     opacity: 1;
 }
