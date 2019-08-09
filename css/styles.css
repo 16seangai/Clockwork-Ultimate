@@ -237,15 +237,6 @@ nav a:hover {
 
 /* responsive image positioning */
 
-@media screen and (max-width: 720px) {
-    .bgimg1,
-    .bgimg2,
-    .bgimg3,
-    .bgimg4 {
-      background-attachment: scroll;
-    }
-}
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #roster-nav a {
