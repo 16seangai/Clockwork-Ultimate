@@ -190,6 +190,10 @@ nav a:hover {
     background: rgba(0, 0, 0, 0.7);
 }
 
+#gallery .carousel-item {
+    height: 75vh;
+}
+
 /* center overlays on parallax images */
 
 #logo {
@@ -254,16 +258,15 @@ nav a:hover {
         width: 25%;
     }
 
-    #gallery .carousel-item {
-        height: 100vh;
-        min-height: 350px;
-    }
-
     .bgimg-1,
     .bgimg-2,
     .bgimg-3,
     .bgimg-4 {
         background-attachment: fixed;
+    }
+
+    #gallery .carousel-item {
+        height: 85vh;
     }
 }
 
@@ -271,5 +274,9 @@ nav a:hover {
 @media (min-width: 992px) {
     .carousel-item img {
         object-position: 50% 30%;
+    }
+
+    #gallery .carousel-item {
+        height: 87.5vh;
     }
 }
