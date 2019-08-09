@@ -212,6 +212,9 @@ nav a:hover {
 }
 
 /* social section twitter feed */
+.twitter-wrapper {
+    text-align: center;
+}
 
 /* contact section font-awesome icons */
 
