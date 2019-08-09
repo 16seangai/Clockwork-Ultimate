@@ -22,22 +22,33 @@ $("#view-roster").on("click", function() {
 });
   
 $("#view-gallery").on("click", function() {
-    const uandu = $("#gallery").position().top;
+    const gallery = $("#gallery").position().top;
 
     $("html, body").animate(
         {
-        scrollTop: uandu
+        scrollTop: gallery
+        },
+        900
+    );
+});
+
+$("#view-social").on("click", function() {
+    const social = $("#social").position().top;
+
+    $("html, body").animate(
+        {
+        scrollTop: social
         },
         900
     );
 });
   
 $("#view-contact").on("click", function() {
-    const sponsors = $("#contact").position().top;
+    const contact = $("#contact").position().top;
 
     $("html, body").animate(
         {
-        scrollTop: sponsors
+        scrollTop: contact
         },
         900
     );

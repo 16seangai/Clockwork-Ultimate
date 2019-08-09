@@ -132,6 +132,7 @@ nav a:hover {
 
 .section h1 {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .section-text {
@@ -158,6 +159,10 @@ nav a:hover {
     color: #777;
 }
 
+.embedded {
+    padding-bottom: 7.5rem;
+}
+
 /* gallery carousel */
 
 .carousel-item img {
@@ -174,10 +179,6 @@ nav a:hover {
 
 #gallery .carousel-item {
     height: 45vh;
-}
-
-#gallery {
-    padding-bottom: 7.5rem;
 }
 
 /* center overlays on parallax images */
@@ -210,9 +211,11 @@ nav a:hover {
     text-shadow: 0 0 10px #000;
 }
 
-/* font-awesome icons */
+/* social section twitter feed */
 
-#social .fa {
+/* contact section font-awesome icons */
+
+#social_icons .fa {
     padding: 1rem;
     font-size: 1.5rem;
     text-align: center;
@@ -221,7 +224,7 @@ nav a:hover {
     color: #fff;
 }
 
-#social .fa:hover {
+#social_icons .fa:hover {
     opacity: 0.7;
 }
 
