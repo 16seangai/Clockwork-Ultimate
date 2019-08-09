@@ -246,6 +246,13 @@ nav a:hover {
     #roster-tables table {
         width: 50%;
     }
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: fixed;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -257,13 +264,6 @@ nav a:hover {
     #gallery .carousel-item {
         height: 100vh;
         min-height: 350px;
-    }
-
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3,
-    .bgimg-4 {
-        background-attachment: fixed;
     }
 }
 
