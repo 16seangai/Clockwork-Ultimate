@@ -81,21 +81,21 @@ nav a:hover {
     width: 100%;
 }
 
-#roster .captain {
+#roster-content .captain {
     font-weight: bold;
     color: #e77500;
 }
 
-#roster .president {
+#roster-content .president {
     font-weight: bold;
 }
 
-#roster .social-chair {
+#roster-content .social-chair {
     font-weight: 600;
     font-style: italic;
 }
 
-#roster .member {
+#roster-content .member {
     font-weight: 200;
 }
 
